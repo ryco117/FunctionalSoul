@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>preview</LangVersion>
+    <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Types.fs" />
+    <Compile Include="Helpers.fs" />
+    <Compile Include="LoginPage.fs" />
+    <Compile Include="DownloadPage.fs" />
+    <Compile Include="FileSearchPage.fs" />
+    <Compile Include="FunctionalSoul.fs" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Soulseek" Version="2.3.8" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="Fabulous.XamarinForms" Version="1.1.0" />
+    <PackageReference Include="Fabulous.XamarinForms.LiveUpdate" Version="1.1.0" />
+    <PackageReference Include="FSharp.Core" Version="5.0.0" />
+    <PackageReference Update="FSharp.Core" Version="5.0.2-beta.21102.10" /> <!-- workaround for VSMac bug https://github.com/mono/monodevelop/pull/5137 --> 
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+</Project>
