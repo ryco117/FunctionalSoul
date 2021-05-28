@@ -6,6 +6,12 @@ Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FunctionalSoul", "Functiona
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FunctionalSoul.Android", "FunctionalSoul.Android\FunctionalSoul.Android.fsproj", "{8E0ADB25-CDAB-45B9-8B80-845E5EBAFB60}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DCA63C37-6E5A-4523-85FA-4C1A5648F431}"
+	ProjectSection(SolutionItems) = preProject
+		COPYING = COPYING
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
