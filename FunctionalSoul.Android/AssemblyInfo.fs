@@ -33,7 +33,7 @@ type Resources = FunctionalSoul.Android.Resource
 [<assembly: AssemblyConfiguration("")>]
 [<assembly: AssemblyCompany("")>]
 [<assembly: AssemblyProduct("FunctionalSoul.Android")>]
-[<assembly: AssemblyCopyright("Copyright ©  2014")>]
+[<assembly: AssemblyCopyright("Copyright ©  2021")>]
 [<assembly: AssemblyTrademark("")>]
 [<assembly: AssemblyCulture("")>]
 [<assembly: ComVisible(false)>]
@@ -48,8 +48,8 @@ type Resources = FunctionalSoul.Android.Resource
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [<assembly: AssemblyVersion("1.0.*")>]
-[<assembly: AssemblyVersion("0.0.0.2")>]
-[<assembly: AssemblyFileVersion("0.0.0.2")>]
+[<assembly: AssemblyVersion("0.0.1.1")>]
+[<assembly: AssemblyFileVersion("0.0.1.1")>]
 
 // Add some common permissions, these can be removed if not needed
 [<assembly: UsesPermission(Android.Manifest.Permission.Internet)>]
