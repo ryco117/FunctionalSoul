@@ -111,7 +111,8 @@ let view _environment model dispatch =
             text = model.searchPattern,
             textChanged = (fun args ->
                 let t = args.NewTextValue
-                CompletedSearchPattern (if isNull t then "" else t) |> dispatch))
+                CompletedSearchPattern (if isNull t then "" else t) |> dispatch),
+            completed = (fun _ -> SearchPatternStart dispatch |> dispatch))
     let fileList =
         View.ListView (
             items = userFiles,
